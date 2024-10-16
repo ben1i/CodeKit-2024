@@ -2,6 +2,8 @@
 
 This repository contains code for several common web elements that can enhance the user experience on your website. Each component is implemented using basic HTML, CSS, and JavaScript, making them easy to integrate and customize for your needs. These elements provide essential functionality and interactivity without requiring any third-party libraries.
 
+You can visualize the code on CodePen following this link : https://codepen.io/collection/waVYeR
+
 ## Table of Contents
 - [Features](#features)
 - [Installation](#installation)
