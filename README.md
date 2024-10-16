@@ -1,6 +1,8 @@
-# Simple Web Elements
+# CodeKit | Simple Web Elements
 
 This repository contains code for several common web elements that can enhance the user experience on your website. Each component is implemented using basic HTML, CSS, and JavaScript, making them easy to integrate and customize for your needs. These elements provide essential functionality and interactivity without requiring any third-party libraries.
+
+You can visualize the code on CodePen following this link : https://codepen.io/collection/waVYeR
 
 ## Table of Contents
 - [Features](#features)
@@ -31,12 +33,12 @@ This repository contains code for several common web elements that can enhance t
 
 1. Clone the repository:
     ```bash
-    git clone https://github.com/your-username/simple-web-elements.git
+    git clone https://github.com/ben1i/codekit---2024.git
     ```
 
 2. Navigate to the project directory:
     ```bash
-    cd simple-web-elements
+    cd CodeKit---2024
     ```
 
 3. Link the necessary HTML, CSS, and JavaScript files in your project.
@@ -46,19 +48,19 @@ This repository contains code for several common web elements that can enhance t
 Each component is located in its own folder with corresponding HTML, CSS, and JavaScript files. You can copy the code for each element and include it directly in your project, or adapt it as necessary.
 
 For example, to add the **Back to Top Button**:
-1. Include the `back-to-top.css` file in your `<head>` tag:
+1. Include the `style.css` file in your `<head>` tag:
     ```html
-    <link rel="stylesheet" href="path/to/back-to-top.css">
+    <link rel="stylesheet" href="style.css">
     ```
 
-2. Add the `back-to-top.js` file before the closing `</body>` tag:
+2. Add the `app.js` file in your `<head>` tag:
     ```html
-    <script src="path/to/back-to-top.js"></script>
+    <script src="app.js"></script>
     ```
 
-3. Place the button HTML in your desired location:
+3. Place the HTML link in your desired location:
     ```html
-    <button id="back-to-top">Top</button>
+    <a class="btt" href="#top>Back To Top!</button>
     ```
 
 ## Elements
