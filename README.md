@@ -1,4 +1,4 @@
-# Simple Web Elements
+# CodeKit | Simple Web Elements
 
 This repository contains code for several common web elements that can enhance the user experience on your website. Each component is implemented using basic HTML, CSS, and JavaScript, making them easy to integrate and customize for your needs. These elements provide essential functionality and interactivity without requiring any third-party libraries.
 
@@ -51,7 +51,7 @@ For example, to add the **Back to Top Button**:
     <link rel="stylesheet" href="style.css">
     ```
 
-2. Add the `app.js` file before the closing `</body>` tag:
+2. Add the `app.js` file in your `<head>` tag:
     ```html
     <script src="app.js"></script>
     ```
