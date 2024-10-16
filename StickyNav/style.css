@@ -1,0 +1,33 @@
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: sans-serif;
+    font-size: 18px;
+    line-height: 1.4;
+    color: #333;
+    height: 10000px;
+}
+
+.menu__liste {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+
+    display: flex;
+    justify-content: space-around;
+    background-color: #BADA55;
+
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+
+    transform: translateY(0);
+    transition: transform .3s ease-out;
+}
+
+.menu--close .menu__liste {
+    transform: translateY(-100%);
+}
